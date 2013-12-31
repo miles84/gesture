@@ -1,0 +1,16 @@
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/clean-test-results.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/keyboard.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/rosbuild_precompile.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/rospack_genmsg.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/rospack_gensrv.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/test.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/test-future.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/test-results.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/test-results-run.dir
+/home/gang/ROS_repositories/keyboard/build/CMakeFiles/tests.dir

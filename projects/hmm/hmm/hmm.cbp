@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="hmm" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/hmm" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-I/opt/ros/fuerte/include -I/opt/ros/fuerte/include -I/home/ascc/ros_f/msg_kinect/msg_gen/cpp/include -I/opt/ros/fuerte/include -I/opt/ros/fuerte/include -I/home/ascc/ros_f/stacks/roboearth/re_msgs/msg/cpp -I/home/ascc/ros_f/stacks/roboearth/re_msgs/msg_gen/cpp/include -I/home/ascc/ros_f/stacks/roboearth/object_scanning/re_kinect_object_detector/msg_gen/cpp/include -I/opt/ros/fuerte/stacks/geometry/tf/include -I/opt/ros/fuerte/stacks/geometry/tf/msg_gen/cpp/include -I/opt/ros/fuerte/stacks/geometry/tf/srv_gen/cpp/include -I/opt/ros/fuerte/stacks/bullet/include -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -I/opt/ros/fuerte/include -I/opt/ros/fuerte/stacks/geometry/angles/include -I/opt/ros/fuerte/include -I/opt/ros/fuerte/include -I/opt/ros/fuerte/stacks/image_common/image_transport/include -I/opt/ros/fuerte/stacks/pluginlib/include -I/opt/ros/fuerte/stacks/pluginlib -I/opt/ros/fuerte/include -I/opt/ros/fuerte/include/opencv -I/opt/ros/fuerte/include -I/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/include -I/opt/ros/fuerte/include/opencv -I/opt/ros/fuerte/include -I/opt/ros/fuerte/include/pcl-1.5 -I/opt/ros/fuerte/include -I/usr/include/eigen3" />
+			<Add directory="/usr/local/include/octave-3.6.3" />
+		</Compiler>
+		<Linker>
+			<Add option="-L/opt/ros/fuerte/lib -L/opt/ros/fuerte/lib -lroscpp -lrostime -lrosconsole -lroscpp_serialization -lxmlrpcpp -L/opt/ros/fuerte/lib -L/opt/ros/fuerte/lib -Wl,-rpath,/opt/ros/fuerte/stacks/geometry/tf/lib -L/opt/ros/fuerte/stacks/geometry/tf/lib -ltf -lboost_thread-mt -L/opt/ros/fuerte/stacks/bullet/lib -Wl,-rpath,/opt/ros/fuerte/stacks/bullet/lib -lBulletDynamics -lBulletCollision -lLinearMath -L/opt/ros/fuerte/lib -lrosconsole  -L/opt/ros/fuerte/lib -L/opt/ros/fuerte/lib -lmessage_filters -lroscpp -lrostime -lrosconsole -lroscpp_serialization -lxmlrpcpp -Wl,-rpath,/opt/ros/fuerte/stacks/image_common/image_transport/lib -L/opt/ros/fuerte/stacks/image_common/image_transport/lib -limage_transport -Wl,-rpath,/opt/ros/fuerte/stacks/pluginlib/lib -L/opt/ros/fuerte/stacks/pluginlib/lib -lpoco_lite -lboost_fs_wrapper -ltinyxml -L/opt/ros/fuerte/lib -lroslib -L/opt/ros/fuerte/lib -lopencv_calib3d -lopencv_contrib -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_legacy -lopencv_ml -lopencv_nonfree -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_ts -lopencv_video -lopencv_videostab -Wl,-rpath,/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/lib -L/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/lib -lcv_bridge -L/opt/ros/fuerte/lib -lopencv_calib3d -lopencv_contrib -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_gpu -lopencv_highgui -lopencv_imgproc -lopencv_legacy -lopencv_ml -lopencv_nonfree -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_ts -lopencv_video -lopencv_videostab -L/opt/ros/fuerte/lib -lpcl_keypoints -lpcl_registration -lpcl_features -lpcl_segmentation -lpcl_surface -lpcl_tracking -lpcl_filters -lpcl_sample_consensus -lpcl_search -lpcl_visualization -lpcl_io -lpcl_kdtree -lpcl_octree -lflann_cpp -lflann_cpp-gd -lpcl_common -lmysqlclient" />
+			<Add library="/usr/local/lib/octave/3.6.3/libcruft.so" />
+			<Add library="/usr/local/lib/octave/3.6.3/liboctave.so" />
+			<Add library="/usr/local/lib/octave/3.6.3/liboctinterp.so" />
+		</Linker>
+		<Unit filename="../processing2-kitchen2.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
